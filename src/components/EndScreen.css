@@ -1,0 +1,13 @@
+.end_box {
+  gap: 10px;
+}
+
+.end_box h1 span {
+  color: hsl(191, 98%, 46%);
+  text-shadow: 1px 1px 3px hsl(191, 98%, 16%, 0.4);
+}
+
+.end_box h3 span {
+  font-size: 24px;
+  color: hsl(281, 90%, 80%);
+}

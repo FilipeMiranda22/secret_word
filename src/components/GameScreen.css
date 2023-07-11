@@ -1,0 +1,113 @@
+.game_box {
+  position: relative;
+}
+
+.game_box h1 {
+  font-size: 2.5rem;
+}
+
+.icon_restart {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  font-size: 32px;
+  color: hsl(191, 98%, 46%);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.icon_restart:hover {
+  transform: scale(1.1);
+}
+
+.title_game span {
+  color: hsl(191, 98%, 46%);
+  text-shadow: 2px 2px 1px hsl(191, 98%, 26%, 0.6);
+}
+
+.points {
+  font-size: 20px;
+}
+
+.points span {
+  font-weight: bold;
+  color: hsl(281, 90%, 80%);
+}
+
+.tip span {
+  font-size: 24px;
+  color: hsl(281, 90%, 80%);
+  text-transform: uppercase;
+}
+
+.guesses span {
+  color: hsl(191, 98%, 46%);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.word_container {
+  margin: 1.2rem;
+  border: 3px solid hsl(191, 98%, 46%);
+  box-shadow: 0px 0px 4px hsl(191, 98%, 26%, 0.6);
+  display: flex;
+  align-items: center;
+}
+
+.letter,
+.blank_square {
+  padding: 6px;
+  font-size: 46px;
+  line-height: 1.5;
+  width: 100%;
+  height: 85px;
+  border: 2px solid hsl(191, 98%, 46%);
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+
+.letter_container {
+  margin: 1.2rem 45px;
+}
+
+.letter_container p {
+  margin-bottom: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.letter_container form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.letter_container input {
+  height: 50px;
+  width: 50px;
+  background-color: hsl(281, 90%, 70%, 0.8);
+  box-shadow: 0px 0px 4px hsl(281, 90%, 45%, 0.5);
+  outline: none;
+  border: none;
+  color: whitesmoke;
+  border-radius: 5px;
+  font-size: 2rem;
+  text-align: center;
+  margin-right: 1rem;
+  transition: all 0.3s;
+}
+
+.letter_container input:focus {
+  transform: scale(1.1);
+}
+
+.wrong_letters_container {
+  height: 50px;
+}
+
+.wrong_letters_container span {
+  font-size: 24px;
+  font-weight: bold;
+  color: hsl(281, 90%, 80%);
+}
